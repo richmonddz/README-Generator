@@ -6,12 +6,12 @@ const questions = [
   {
     type: "input",
     name: "Title",
-    message: "",
+    message: "What is the title of your project?",
   },
   {
     type: "input",
     name: "Description",
-    message: "",
+    message: "Write a short description of your project.",
   },
   {
     type: "input",
@@ -21,32 +21,38 @@ const questions = [
   {
     type: "input",
     name: "Installation",
-    message: "",
+    message: "How do you install you application?",
   },
   {
     type: "input",
-    name: "Description",
-    message: "Usage",
+    name: "Usage",
+    message: "What is you application used for",
   },
   {
     type: "input",
     name: "License",
-    message: "",
+    message: "What licenses were used?",
   },
   {
     type: "input",
     name: "Contributing",
-    message: "",
+    message: "Who contributed to your application?",
   },
   {
     type: "input",
     name: "Test",
-    message: "",
+    message: "How do you run tests on you application?",
   },
   {
     type: "input",
     name: "Questions",
-    message: "",
+    message:
+      "What is your prefered email so users may ask you questions regarding you application",
+  },
+  {
+    type: "input",
+    name: "Github",
+    message: "What is you Github username?",
   },
 ];
 

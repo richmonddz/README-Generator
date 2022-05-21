@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  return `![Badge](https://img.shields.io/badge/License-${license}-blueviolet)`;
+  return `[![License: MIT](https://img.shields.io/badge/License-${license}-yellow.svg)](https://opensource.org/licenses/MIT)`;
 }
 
 // TODO: Create a function that returns the license link
@@ -23,6 +23,7 @@ ${data.intallation}
 ${data.usage}
 # License
 ${data.license}
+${renderLicenseBadge(data.license)}
 # Contribution
 ${data.contributing}
 # Test
@@ -31,6 +32,7 @@ ${data.test}
 **For any questions please email me at - **${data.questions}
 # Github
 **See this project and others at - **${data.github}
+${data.githubLink}
 
 
 `;

@@ -26,10 +26,10 @@ const questions = [
     message: "What is your project used for",
   },
   {
-    type: "input",
+    type: "list",
     name: "license",
-    message: "What licenses were used?",
-    choices: ["MIT", "N/A"],
+    message: "What licenses were used? (Use the arrow keys to navigate)",
+    choices: ["MIT", "Apache", "Eclipse", "IBM", "Mozilla", "N/A"],
   },
   {
     type: "input",

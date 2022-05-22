@@ -28,8 +28,8 @@ const questions = [
   {
     type: "list",
     name: "license",
-    message: "What licenses were used? (Use the arrow keys to navigate)",
-    choices: ["MIT", "Apache", "Eclipse", "IBM", "Mozilla", "N/A"],
+    message: "What licenses were used?",
+    choices: ["MIT", "Apache", "Eclipse", "IBM", "Mozilla"],
   },
   {
     type: "input",
